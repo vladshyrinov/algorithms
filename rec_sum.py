@@ -1,3 +1,5 @@
+# Algorithmic efficiency - O(n)
+
 def rec_sum(arr):
     if arr == []:
         return 0

@@ -1,3 +1,5 @@
+# Algorithmic efficiency - O(n)
+
 def rec_elems_count(arr):
     if len(arr) == 0:
         return 0

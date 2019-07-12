@@ -1,5 +1,6 @@
+# Algorithmic efficiency - O(2^n)
+
 def rec_max_elem(arr):
-    print(arr)
     if arr == []:
         return None
     elif len(arr) == 1:
@@ -9,7 +10,7 @@ def rec_max_elem(arr):
 
 
 def main():
-    print(rec_max_elem([1, -2, 10, 50, 3, 34, 51, 6]))
+    print(rec_max_elem([-2, 10, 50, 3, 34, 51, 6]))
 
 if __name__ == "__main__":
     main()
