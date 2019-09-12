@@ -1,4 +1,4 @@
-# Algorithmic efficiency - O(n2)
+# Algorithmic efficiency - O(n^2)
 
 def bubble_sort(arr):
     i = len(arr) - 1

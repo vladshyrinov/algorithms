@@ -1,4 +1,4 @@
-# Algorithmic efficiency - O(n2)
+# Algorithmic efficiency - O(n^2)
 
 def selection_sort(arr):
     for i in range(len(arr)):
