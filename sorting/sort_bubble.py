@@ -1,4 +1,4 @@
-# Algorithmic efficiency - O(n2)
+# Algorithmic efficiency - O(n^2)
 
 def bubble_sort(arr):
     i = len(arr) - 1
@@ -7,10 +7,5 @@ def bubble_sort(arr):
             if arr[j+1] < arr[j]:
                 arr[j+1], arr[j] = arr[j], arr[j+1]
         i -= 1
-    print(arr)
 
-def main():
-    bubble_sort([5,23,1,45,34, -19, 2])
-
-if __name__ == "__main__":
-    main()
+print(bubble_sort([5,23,1,45,34, -19, 2]))

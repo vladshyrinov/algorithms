@@ -8,14 +8,10 @@ def binary_search(arr, item):
         if arr[mid] == item:
             return mid
         elif arr[mid] < item:
-            low = mid
+            low = mid + 1
         else:
-            high = mid
-    return
+            high = mid - 1
+    return -1
 
-def main():
-    idx = binary_search(list(range(4, 100)), 50)
-    print(idx)
-
-if __name__ == "__main__":
-    main()
+idx = binary_search(list(range(4, 100)), 50)
+print(idx)

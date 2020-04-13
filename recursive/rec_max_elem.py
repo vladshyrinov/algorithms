@@ -9,8 +9,4 @@ def rec_max_elem(arr):
         return arr[0] if arr[0] > rec_max_elem(arr[1:]) else rec_max_elem(arr[1:])
 
 
-def main():
-    print(rec_max_elem([-2, 10, 50, 3, 34, 51, 6]))
-
-if __name__ == "__main__":
-    main()
+print(rec_max_elem([-2, 10, 50, 3, 34, 51, 6]))
