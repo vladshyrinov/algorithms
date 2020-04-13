@@ -47,8 +47,7 @@ def get_lowest_cost_node(costs):
             lowest_cost_node = node
     return lowest_cost_node
 
-if __name__ == "__main__":
-    dijkstra_algorithm()
-    print(costs)
-    print(parents)
+dijkstra_algorithm()
+print(costs)
+print(parents)
 
