@@ -7,5 +7,6 @@ def bubble_sort(arr):
             if arr[j+1] < arr[j]:
                 arr[j+1], arr[j] = arr[j], arr[j+1]
         i -= 1
+    return arr
 
 print(bubble_sort([5,23,1,45,34, -19, 2]))
